@@ -1,0 +1,62 @@
+body {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    padding-top: 20px;
+}
+
+footer {
+
+    position: block;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 223, 216)
+}
+
+#poster {
+    max-width: 600px;
+    width: 100%;
+}
+#webLinks{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#webLinks li {
+    display: inline; 
+    list-style: none;
+    padding: 8px; 
+}
+
+#webLinks li a {
+    color: black !important;
+    text-decoration: none;
+}
+
+#movieInfo {
+    max-width: 600px;
+}
+
+#youtube {
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.wrapper {
+    /*  margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 455px;
+    max-width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
